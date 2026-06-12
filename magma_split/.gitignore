@@ -1,0 +1,8 @@
+# Experiment data and logs (large, regenerable)
+experiments/
+build_logs/
+*.log
+# Python
+__pycache__/
+*.pyc
+all_runs_new.csv

@@ -1,0 +1,10 @@
+# Build verification config — short run, 1 trial, just proves the image works.
+# Used by run_one_benchmark.sh for sequential build testing.
+trials: 1
+max_total_time: 1800
+docker_registry: gcr.io/fuzzbench
+experiment_filestore: /path/to/fuzz-split/results/experiment-data
+report_filestore: /path/to/fuzz-split/results/report-data
+local_experiment: true
+snapshot_period: 360
+runner_num_cpu_cores: 1

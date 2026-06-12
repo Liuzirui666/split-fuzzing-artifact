@@ -1,0 +1,22 @@
+# Experiment outputs (large, ephemeral)
+results/experiment-data/
+results/report-data/
+tmp/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large data files (>100MB, GitHub limit)
+data/baseline_24h.csv
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Experiment results and data (kept local only)
+results/
+data/
